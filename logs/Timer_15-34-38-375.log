@@ -1,0 +1,12 @@
+15:34:38 [AkkaRemoteClient-akka.actor.default-dispatcher-2] INFO  com.i2i.Client - MSISDN: deneme123
+15:34:38 [AkkaRemoteClient-akka.actor.default-dispatcher-2] WARN  com.i2i.Client - Location: TURKEY
+15:34:38 [AkkaRemoteClient-akka.actor.default-dispatcher-2] ERROR com.i2i.Client - Service: SMS
+15:34:38 [AkkaRemoteClient-akka.actor.default-dispatcher-2] FATAL com.i2i.Client - Amount: 1
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] INFO  com.i2i.Client - MSISDN: deneme123
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] WARN  com.i2i.Client - Location: EUROPE
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] ERROR com.i2i.Client - Service: SMS
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] FATAL com.i2i.Client - Amount: 1
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] INFO  com.i2i.Client - MSISDN: deneme123
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] WARN  com.i2i.Client - Location: TURKEY
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] ERROR com.i2i.Client - Service: VOICE
+15:34:39 [AkkaRemoteClient-akka.actor.default-dispatcher-2] FATAL com.i2i.Client - Amount: 1644
