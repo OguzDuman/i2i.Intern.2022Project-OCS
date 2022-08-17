@@ -19,6 +19,7 @@ public class ClientActor  extends UntypedActor {
     LocationGenerator locationGenerator = new LocationGenerator();
     ServiceGenerator serviceGenerator = new ServiceGenerator();
     AmountGenerator amountGenerator = new AmountGenerator();
+    OPNumberGenerator opNumberGenerator = new OPNumberGenerator();
 
     @Override
     public void onReceive(Object message) throws Exception {
@@ -32,15 +33,27 @@ public class ClientActor  extends UntypedActor {
             log.info("Got result back from calculator: {}", result.getResult());
         }
         else{
-            String msisdn = msisdnGenerator.getMsisdn();
+            String messageStr = message.toString();
+            String[] twoMSISDNs = messageStr.split("x");
+            String preMSISDN = twoMSISDNs[0];
+            String preOPNumber = twoMSISDNs[1];
+
+
+            //String msisdn = msisdnGenerator.getMsisdn();
             String location = locationGenerator.getLocation();
             String service = serviceGenerator.getService();
             int amount = amountGenerator.getAmount(service);
-            logger.info("MSISDN: " + message.toString());
+
+            String opnumber = opNumberGenerator.getOPNumber(service, preOPNumber);
+
+            logger.info("MSISDN: " + preMSISDN);
+            logger.info("OPNumber " + opnumber);
             logger.warn("Location: " + location);
             logger.error("Service: " + service);
             logger.fatal("Amount: " + amount);
-            selection.tell(new Message.Usage(message.toString(), location, service, amount), getSelf());
+            logger.fatal("");
+            //selection.tell(new Message.Usage(message.toString(), location, service, amount), getSelf());
+            selection.tell(new Message.Usage(preMSISDN, opnumber, location, service, amount), getSelf());
         }
 
 

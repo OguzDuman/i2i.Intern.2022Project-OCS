@@ -1,0 +1,120 @@
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 11
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber GOOGLE
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: EUROPE
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 154487730
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 2
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 5
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: VOICE
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 925
+19:07:28 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 3
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 6
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:30 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 5
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber SPOTIFY
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 907165244
+19:07:31 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 10
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber OTHER
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 185678989
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 6
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 7
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: EUROPE
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: VOICE
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 2212
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 6
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 2
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:32 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 8
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber FACEBOOK
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: NORTHERNCYPRUS
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 814477605
+19:07:34 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 3
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber OTHER
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 855028448
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 8
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 5513852249
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 6
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 7
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 4
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 11
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:35 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 8
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 5
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:36 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 10
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber GOOGLE
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1182314338
+19:07:37 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 10
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 7
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: MIDDLEEAST
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: VOICE
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 2443
+19:07:38 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 8
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 4
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:39 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 8
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber OTHER
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: DATA
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 559763064
+19:07:42 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 4
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 1
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: EUROPE
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: VOICE
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1984
+19:07:43 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 11
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 5513852248
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: SMS
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1
+19:07:45 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - MSISDN: 10
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] INFO  com.i2i.Client - OPNumber 7
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] WARN  com.i2i.Client - Location: TURKEY
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] ERROR com.i2i.Client - Service: VOICE
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - Amount: 1754
+19:07:48 [AkkaRemoteClient-akka.actor.default-dispatcher-4] FATAL com.i2i.Client - 

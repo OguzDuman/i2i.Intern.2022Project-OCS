@@ -33,9 +33,11 @@ public class Listener extends UntypedActor {
         }*/
         if (message instanceof Message.Usage){
             log.info("MSISDN {}", ((Message.Usage) message).getMsisdn());
+            log.info("OPNumber {}", ((Message.Usage) message).getOpNumber());
             log.info("Location {}", ((Message.Usage) message).getLocation());
             log.info("Service {}", ((Message.Usage) message).getService());
             log.info("Amount {}", ((Message.Usage) message).getAmount());
+            log.info("");
         }
 
 
