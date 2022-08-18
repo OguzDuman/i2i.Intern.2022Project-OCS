@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.com.i2i.internship.EyeCell.Hazelcast.HazelcastConfiguration;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Client {
@@ -23,10 +24,11 @@ public class Client {
 
         HazelcastConfiguration hazelcastConfiguration = new HazelcastConfiguration();
         hazelcastConfiguration.initConnection
-                ("34.77.94.205", "34.77.94.205:5702",
+                ("34.77.94.205", "34.77.94.205",
                         "Customers Map (Current Map)");
-        ArrayList<String> msisdnList = hazelcastConfiguration.getMsisdnList(10);
-        ArrayList<String> opNumberList = hazelcastConfiguration.getMsisdnList(10);
+        int wantedSize = 10;
+        ArrayList<String> msisdnList = hazelcastConfiguration.getMsisdnList(wantedSize);
+        ArrayList<String> opNumberList = hazelcastConfiguration.getMsisdnList(wantedSize);
         String msisdn;
         String opNumber;
         //String msisdn = msisdnList.get(0);
@@ -36,12 +38,17 @@ public class Client {
             if(rand.nextInt()%100000000!=0){ //randomly select 1 of 5 cycles
                 continue;
             }
-            msisdn = msisdnList.get(rand.nextInt(10));
-            opNumber = opNumberList.get(rand.nextInt(10));
+            msisdn = msisdnList.get(rand.nextInt(msisdnList.size()));
+            opNumber = opNumberList.get(rand.nextInt(opNumberList.size()));
+            if (msisdn.equals(opNumber)){
+                do {
+                    opNumber = opNumberList.get(rand.nextInt(opNumberList.size()));
+                }while (opNumber.equals(msisdn));
+            }
             client.tell(msisdn + "x" + opNumber, ActorRef.noSender());
             if(rand.nextInt()%5==0){
-                msisdnList = hazelcastConfiguration.getMsisdnList(10);
-                opNumberList = hazelcastConfiguration.getMsisdnList(10);
+                msisdnList = hazelcastConfiguration.getMsisdnList(wantedSize);
+                opNumberList = hazelcastConfiguration.getMsisdnList(wantedSize);
             }
         }
     }

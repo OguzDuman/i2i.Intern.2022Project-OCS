@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="ClientOcs" target="1.8" />
       <module name="OCS" target="1.8" />
-      <module name="Shared" target="1.5" />
+      <module name="Shared" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

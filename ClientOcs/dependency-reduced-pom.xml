@@ -32,7 +32,7 @@
   <repositories>
     <repository>
       <id>my</id>
-      <url>file://C:\Users\LENOVO\Desktop\repo3</url>
+      <url>file://C:\Users\LENOVO\Desktop\hazelcast-repo</url>
     </repository>
   </repositories>
   <properties>

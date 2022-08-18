@@ -1,7 +1,10 @@
+com\i2i\Client.class
 com\i2i\ServiceGenerator$Service.class
+com\i2i\OPNumberGenerator.class
 com\i2i\AmountGenerator.class
 com\i2i\ClientActor.class
 com\i2i\LocationGenerator$Location.class
 com\i2i\MSISDNGenerator.class
+com\i2i\OPNumberGenerator$InternetOPs.class
 com\i2i\LocationGenerator.class
 com\i2i\ServiceGenerator.class
