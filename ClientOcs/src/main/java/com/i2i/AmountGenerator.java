@@ -7,7 +7,7 @@ public class AmountGenerator {
     Random rand;
     final int voiceBound = 3600;
     final int smsBound = 1;
-    final int dataBound = 1300000000;
+    final int dataBound = 10240000;
 
     //sn
     //byte
