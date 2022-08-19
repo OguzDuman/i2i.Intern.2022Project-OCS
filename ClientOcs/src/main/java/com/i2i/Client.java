@@ -10,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 import org.com.i2i.internship.EyeCell.Hazelcast.HazelcastConfiguration;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Client {
@@ -31,7 +30,6 @@ public class Client {
         ArrayList<String> opNumberList = hazelcastConfiguration.getMsisdnList(wantedSize);
         String msisdn;
         String opNumber;
-        //String msisdn = msisdnList.get(0);
 
         Random rand = new Random();
         while(true) {

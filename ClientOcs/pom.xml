@@ -31,11 +31,6 @@
             <artifactId>akka-remote_2.11</artifactId>
             <version>2.3.7</version>
         </dependency>
-        <!--dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-actor_2.11</artifactId>
-            <version>2.5.32</version>
-        </dependency-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -80,11 +75,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
-
-
     </build>
-
 </project>

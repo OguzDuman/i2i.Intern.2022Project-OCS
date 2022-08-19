@@ -18,6 +18,5 @@ public class MSISDNGenerator {
             msisdn = msisdn + rand.nextInt(10);
         }
         return "05398849442";
-        //return msisdn;
     }
 }

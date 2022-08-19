@@ -2,7 +2,6 @@ package com.i2i;
 
 import java.util.Random;
 
-//TODO change probabilities properly
 public class LocationGenerator {
     enum Location{
         TURKEY,

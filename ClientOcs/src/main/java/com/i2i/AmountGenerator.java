@@ -9,9 +9,9 @@ public class AmountGenerator {
     final int smsBound = 1;
     final int dataBound = 10240000;
 
-    //sn
-    //byte
-    //sms 1 tane
+    //voice: seconds
+    //sms: 1
+    //data bytes
     AmountGenerator(){
         rand = new Random();
     }
